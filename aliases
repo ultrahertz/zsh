@@ -1,0 +1,35 @@
+# APTITUDE ALIASES
+alias ag='sudo apt-get'
+alias ac='apt-cache'
+
+alias ain='sudo apt-get install'
+alias aps='apt-cache search'
+
+alias au='sudo apt-get update'
+
+alias aup='sudo apt-get update && sudo apt-get upgrade'
+alias dup='sudo apt-get dist-upgrade'
+
+# LS
+alias ls='ls -hF --color=auto'
+
+alias l='ls'
+alias la'ls -a'
+alias ll='ls -l'
+
+# GENERAL
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+# EMACS
+alias e='emacs -nw'
+
+# NCMPC
+alias ncmpc='ncmpc -c'
+
+# TMUX
+alias t="if tmux has; then tmux attach; else tmux new; fi"
+
+# VI
+alias vi='vim'
