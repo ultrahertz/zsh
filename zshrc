@@ -21,8 +21,8 @@ compinit
 source ~/.zsh/functions
 source ~/.zsh/aliases
 
-export EDITOR='vim'
-export SUDO_EDITOR='vim'
+export EDITOR='emacs -nw"
+export SUDO_EDITOR='emacs -nw'
 export PAGER='less'
 
 export JAVA_HOME=/usr/lib/jvm/default-java
@@ -93,8 +93,8 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 export NVM_DIR="/home/jef/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-source ~/opt/perlbrew/etc/bashrc
+source ~/perl5/perlbrew/etc/bashrc
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/home/jef/opt/google-cloud-sdk/path.zsh.inc'
-source '/home/jef/opt/google-cloud-sdk/completion.zsh.inc'
+#source '/home/jef/opt/google-cloud-sdk/path.zsh.inc'
+#source '/home/jef/opt/google-cloud-sdk/completion.zsh.inc'
